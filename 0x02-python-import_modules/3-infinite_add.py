@@ -3,7 +3,7 @@
 # Brennan D Baraban <375@holbertonschool.com>
 
 if __name__ == "__main__":
-    """prints the result of the addition of all arguments."""
+    """Print the addition of all arguments."""
     import sys
 
     total = 0
