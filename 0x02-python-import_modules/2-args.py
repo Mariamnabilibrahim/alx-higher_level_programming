@@ -1,11 +1,18 @@
 #!/usr/bin/python3
-# 2-args.py
-# Brennan D Baraban <375@holbertonschool.com>
-
 if __name__ == "__main__":
-    """prints the number of and the list of its arguments."""
     import sys
+     x = len(sys.argv) - 1
 
-    count = len(sys.argv) - 1
-    if count == 0:
-        print("0 arguments.")
+    if x == 0:
+        print("{} arguments.".format(x))
+    elif x == 1:
+        print("{} argument:".format(x))
+    else:
+        print("{} arguments:".format(x))
+
+    if x >= 1:
+        x = 0
+        for arg in sys.argv:
+            if x != 0:
+                print("{}: {}".format(x, arg))
+            x += 1
