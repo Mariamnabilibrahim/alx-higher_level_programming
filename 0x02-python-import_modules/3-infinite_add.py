@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+# 3-infinite_add.py
+# Brennan D Baraban <375@holbertonschool.com>
+
+if __name__ == "__main__":
+    """prints the result of the addition of all arguments."""
+    import sys
+
+    y = 0
+    for x in range(len(sys.argv) - 1):
+        total += int(sys.argv[x + 1])
