@@ -12,16 +12,16 @@
 * for Holberton project
 */
 
-typedef struct listint s
+typedef struct listint_s
 {
 	int n;
-	struct listint s *next;
+	struct listint_s *next;
 } listint t;
 
-size_t print_listint (const listint_t th);
-listint t *add nodeint end (listint + **head, const int n);
-void free listint (listint_t *head);
+size_t print_listint(const listint_t *h);
+listint_t *add_nodeint-end(listint _t **head, const int n);
+void free_listint(listint_t *head);
 
-int is _palindrome (listint_t **head);
-int aux palind (listint _t ithead, listint_t tend) ;
+int is_palindrome (listint_t **head);
+int aux_palind(listint_t **head, listint_t *end) ;
 #endif /* LISTS # *7
