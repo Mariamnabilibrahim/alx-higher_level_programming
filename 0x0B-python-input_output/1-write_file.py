@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+"""definig write_file with two arguments"""
 
-
-def number_of_lines(filename=""):
-    with open(filename, "r", encoding="UTF-8") as f:
-        return len(list(f))
+def write_file(filename="", text=""):
+    """reads filename with UTF-8"""
+    with open(filename, "w", encoding="UTF-8") as f:
+        return f.write(text)
