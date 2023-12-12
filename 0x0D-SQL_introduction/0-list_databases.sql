@@ -1,2 +1,2 @@
--- Create database if not exits
-CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
+-- Lists all databases of the MySQL server.
+SHOW DATABASES;
